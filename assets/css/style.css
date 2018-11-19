@@ -1,0 +1,182 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+.container {
+	background-color: white;
+	width: 1000px;
+
+}
+
+.banner {
+	
+	height: 100vh;
+	width: 1000px;
+	
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+
+
+.cont1 {
+	height: 100%;
+	
+	background-repeat: no-repeat;
+	padding-left: 100px;
+	padding-right: 100px;
+	background-color: black;
+	margin: 0 auto;
+	}
+
+.banner {
+	background-image: url("../images/card1.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	background-position: center center;
+		
+}
+
+.down {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	left: 50%;
+	transform: translate(-50%, -170%);
+	background-color: grey;
+	opacity: 0.8;
+	padding: 5px 80px;
+	border-radius: 10px;
+}
+
+
+
+.p1 {
+	color: white;
+	font-family: 'Allerta Stencil', sans-serif;
+}
+
+#main1 {
+	margin: 0 auto;
+}
+.navbar {
+	background-color: black;
+
+}
+
+.navbar-brand {
+	font-family: 'Cantarell', sans-serif;
+	color: white;
+	position: fixed;
+}
+
+#mediapic {
+	height: 400px;
+	
+	padding: 0;
+	margin: 0 auto;	
+	
+	/*padding-left: 500px;*/
+	padding-right: 500px;
+	background-position: center center;
+	background-color: black;
+	}	
+
+/*.row {
+	height: 700px;
+}*/
+
+.media {
+	margin-top: 80px;
+}
+p, h5 {
+	margin-top: 30px;
+	text-align: left;
+}
+
+h5 {
+	margin-top: 80px;
+}
+
+.jumbotron {
+	margin-top: 300px;
+}
+
+
+
+.contact {
+	float: right;
+	margin-top: 30px;
+}
+
+
+.soc {
+	margin-top: 20px;
+}
+.clear:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+
+.gallery {
+	padding: 30px;
+}
+
+
+
+.column {
+	width: 31%;
+	margin-left: 1.16%;
+	margin-right: 1.16%;
+	float: left;
+}
+
+
+.gallery > .column {
+	width: 31%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+img[alt*="gallery"] {
+	width: 100%;
+	height: 100px;
+	display: block;
+	
+}
+/*[class*="col"] {
+	border: 1px solid black;
+}*/
+
+#warn {
+	width: 25%;
+}
+
+#suc {
+	width: 50%;
+}
+
+#info {
+	width: 95%;
+}
+
+
+
+.footer {
+	background-color: black;
+}
+
+
