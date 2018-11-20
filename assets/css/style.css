@@ -99,10 +99,10 @@ a{
 
 }
 
+
 .navbar-brand {
 	font-family: 'Cantarell', sans-serif;
 	color: white;
-	position: fixed;
 }
 
 #mediapic {
@@ -215,12 +215,8 @@ img[alt*="gallery"] {
 	color: white;
 }
 
-body {
-	background-image: url(../images/cage.jpg);
-	background-position: center center;
-	background-repeat: no repeat;
-}
 
 #cont {
 	color: white;
+
 }
