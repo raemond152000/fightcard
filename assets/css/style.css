@@ -14,20 +14,10 @@ html {
 
 }
 
-.banner {
-	
-	height: 100vh;
-	width: 1000px;
-	
-	margin: 0 auto;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center center;
-}
 
 
 
+/*landing page*/
 
 .jumbotron hr{
 	background-color: #fff;
@@ -89,10 +79,9 @@ a{
 	border-radius: 10px;
 }
 
+/*end of landing page*/
 
-#main1 {
-	margin: 0 auto;
-}
+
 .navbar {
 	background-color: black;
 
@@ -118,6 +107,20 @@ a{
 	}	
 
 
+#main1 {
+	margin: 0 auto;
+}
+
+#main2 {
+	margin-right: 30px;
+	margin-left: 100px;
+}
+
+#newsfeed {
+	padding-left: 30px;
+	padding-right: 0;
+}
+
 #may {
 	height: 50px;
 	width: 100%;
@@ -133,9 +136,19 @@ a{
 	text-align: left;
 }
 
+h3 {
+	font-family: 'Allerta Stencil', sans-serif;
+}
 #newsfeed {
 	border: 1px solid red;
 	margin-top: 20px;
+	padding: 0;
+}
+
+#news-image {
+	height:100px;
+	width: 100px;
+	margin: 0 auto;
 }
 
 a:hover {
@@ -151,15 +164,17 @@ h5 {
 
 
 
+
 .contact {
-	float: right;
-	margin-top: 30px;
+	float: left;
+	height: 20px;
+	width: 20px;
+	
+    margin-top: 30px;	
 }
 
 
-.soc {
-	margin-top: 20px;
-}
+
 .clear:after {
 	content: " ";
 	clear: both;
@@ -168,13 +183,14 @@ h5 {
 
 .gallery {
 	padding: 30px;
+	margin-bottom: 60px;
 }
 
 
 
 .column {
 	width: 31%;
-	margin-left: 1.16%;
+	margin-left: 1.16%;	
 	margin-right: 1.16%;
 	float: left;
 }
@@ -190,23 +206,13 @@ img[alt*="gallery"] {
 	width: 100%;
 	height: 100px;
 	display: block;
+
+
 	
 }
 /*[class*="col"] {
 	border: 1px solid black;
 }*/
-
-#warn {
-	width: 25%;
-}
-
-#suc {
-	width: 50%;
-}
-
-#info {
-	width: 95%;
-}
 
 
 
@@ -218,5 +224,98 @@ img[alt*="gallery"] {
 
 #cont {
 	color: white;
+	font-family: 'Allerta Stencil', sans-serif;
 
+}
+
+.bodycontact {
+	background-image: url(../images/cage.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.form-group {
+	color: white;
+}
+
+#jumbotron-about {
+	background-color: #141414;
+	height: 90vh;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+#landing-about {
+	color: #f2f2f2;
+	font-size: 5em;
+	padding-top: 20vh;
+	letter-spacing: 5px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.about-tags {
+	font-weight: bold;
+	font-family: "montserrat", sans-serif;
+}
+
+#mission {
+	height: 100%;
+	background-color: #141414; off black;
+	color: #f2f2f2; /*off white*/
+}
+
+#head-gal {
+	margin-top: 8%;
+	background-color: #141414;
+	color: #f2f2f2;
+	text-transform: uppercase;
+	letter-spacing: 0.53em;
+}
+
+#image-gal {
+
+height: 300px;
+width: 300px;
+padding: 20px;
+}
+
+#gallery-items .card {
+	height: 400px;
+	margin-bottom: 20px;
+}
+
+#gallery-items .card image {
+	height: 400px;
+	margin-bottom: 20px;
+}
+
+
+ /*end about us*/
+
+	
+/* nice bootstrap ready facebook share button http://justincron.com */
+
+.btn-facebook {
+	color: #fff;
+	background-color: #4C67A1;
+}
+.btn-facebook:hover {
+	color: #fff;
+	background-color: #405D9B;
+}
+.btn-facebook:focus {
+	color: #fff;
+}
+
+
+
+
+#f1 {
+	width: 33%;
+	float: left;
+}
+
+#p2 {
+	float: left;
 }
