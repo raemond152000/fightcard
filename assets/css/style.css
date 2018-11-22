@@ -66,7 +66,6 @@ a{
 
 
 
-
 .down {
 	position: absolute;
 	bottom: 0;
@@ -111,15 +110,22 @@ a{
 	margin: 0 auto;
 }
 
-#main2 {
-	margin-right: 30px;
-	margin-left: 100px;
+
+.soc {
+	float: right;
+	height: 20px;
+	width: 20px;
+	
+    margin-top: 50px;	
 }
 
-#newsfeed {
-	padding-left: 30px;
-	padding-right: 0;
+
+#imgfg1 {
+	margin-right: 20px;
 }
+
+
+
 
 #may {
 	height: 50px;
@@ -131,25 +137,72 @@ a{
 	margin-top: 80px;
 }
 
-#p2 {
-	margin-top: 30px;
-	text-align: left;
+#titA {
+font-family: 'Source Serif Pro', serif;
 }
 
-h3 {
-	font-family: 'Allerta Stencil', sans-serif;
+#p2 {
+	margin-top: 20px;
+	text-align: left;
+	font-family: 'Source Serif Pro', serif;
+	font-size: 16px;
 }
+
+#maxgif  img {
+	margin-bottom: 30px;
+	float: left;
+}
+
 #newsfeed {
-	border: 1px solid red;
+	padding-left: 30px;
+	padding-right: 0;
+	border: 1px solid #D6D6D6;
 	margin-top: 20px;
 	padding: 0;
+	margin-bottom: 30px;
+
 }
 
-#news-image {
-	height:100px;
-	width: 100px;
-	margin: 0 auto;
+#newsheader {
+	background-color: #FF2D2D;
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #F9F9F9;
+
 }
+#news-image {
+	height:150px;
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 10px;
+	font-size: 10px;
+}
+
+#pn {
+	font-size: 12px;
+	color: black;
+}
+
+#news3 {
+	color: #F9F9F9;
+	font-family: 'Allerta Stencil', sans-serif;
+}
+
+#merc {
+	margin-top: 30px;
+	height: 400px;
+}
+
+h4 {
+	margin-top: 0;
+}
+
+
+#ufcmerc {
+	font-family: 'Roboto Slab', serif;
+	color: #1C1C1C;
+}
+
+
 
 a:hover {
 	text-decoration: none;
@@ -164,14 +217,36 @@ h5 {
 
 
 
-
-.contact {
-	float: left;
-	height: 20px;
-	width: 20px;
+#show {
 	
-    margin-top: 30px;	
+	padding-top: 20%;
+	
+	margin-bottom: 0;
 }
+
+.jumbotron h1{
+	color: #f2f2f2;
+}
+
+#landing {
+	background-color: black;
+
+}
+
+#btn2 {
+	padding: 20px 80px;
+	margin: 0 auto;
+	opacity: 0.8;
+	margin-top: 80px;
+	align-content: center;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif;
+	letter-spacing: 3px;
+		
+}
+
+
 
 
 
@@ -204,17 +279,16 @@ h5 {
 
 img[alt*="gallery"] {
 	width: 100%;
-	height: 100px;
+	height: 300px;
 	display: block;
-
-
 	
 }
-/*[class*="col"] {
-	border: 1px solid black;
-}*/
 
 
+
+
+
+/*===========index.html============*/
 
 .footer {
 	background-color: black;
@@ -265,31 +339,59 @@ img[alt*="gallery"] {
 	color: #f2f2f2; /*off white*/
 }
 
+
+/*=========gallery.html========*/
 #head-gal {
-	margin-top: 8%;
+	
 	background-color: #141414;
 	color: #f2f2f2;
 	text-transform: uppercase;
 	letter-spacing: 0.53em;
 }
 
-#image-gal {
-
-height: 300px;
-width: 300px;
-padding: 20px;
+#header1 {
+	background-color: black;
 }
+
+#vscont {
+	height: 300px;
+	/*background-image: url(../images/vs.jpg);*/
+	background-size: cover;
+	background-color: black;
+}
+
+#carousel-home img {
+	height: 300px;
+	width: 400px;
+}
+
+#qoute {
+	float: right;
+	margin-bottom: 100px;
+	margin-left: 50px;
+}
+
+#joanna {
+	margin-top: 50px;
+}
+
+#maincard1 {
+	font-family: 'Titillium Web', sans-serif;
+}
+
 
 #gallery-items .card {
 	height: 400px;
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 #gallery-items .card image {
 	height: 400px;
-	margin-bottom: 20px;
+	
 }
 
+/*===gallery====*/
 
  /*end about us*/
 
@@ -309,13 +411,14 @@ padding: 20px;
 }
 
 
-
-
 #f1 {
 	width: 33%;
 	float: left;
 }
 
-#p2 {
+
+/*======contact.html==========*/
+
+.contact {
 	float: left;
 }
