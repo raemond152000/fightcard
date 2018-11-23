@@ -106,13 +106,14 @@ a{
 	}	
 
 
+
 #main1 {
 	margin: 0 auto;
 }
 
 
 .soc {
-	float: right;
+	/*float:*/;
 	height: 20px;
 	width: 20px;
 	
@@ -293,6 +294,10 @@ img[alt*="gallery"] {
 .footer {
 	background-color: black;
 	color: white;
+	x
+	
+	
+
 }
 
 
@@ -313,6 +318,8 @@ img[alt*="gallery"] {
 	color: white;
 }
 
+/*======start about.html=======*/
+
 #jumbotron-about {
 	background-color: #141414;
 	height: 90vh;
@@ -325,7 +332,7 @@ img[alt*="gallery"] {
 	font-size: 5em;
 	padding-top: 20vh;
 	letter-spacing: 5px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Cantarell', sans-serif;
 }
 
 .about-tags {
@@ -335,8 +342,31 @@ img[alt*="gallery"] {
 
 #mission {
 	height: 100%;
-	background-color: #141414; off black;
+	background-color: #141414; /*off black;*/
 	color: #f2f2f2; /*off white*/
+	padding-top: 100px;
+	padding-right:300px;
+	padding-left: 300px;
+	padding-bottom: 100px;
+}
+
+#vision{
+	height: 100%;
+	background-color:#f2f2f2;
+	color:#141414;
+	padding-bottom: 80px;
+}
+
+
+#raelog {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	float: right;
+}
+
+.media-body {
+	margin-bottom: 110px;
 }
 
 
@@ -365,6 +395,10 @@ img[alt*="gallery"] {
 	width: 400px;
 }
 
+#q1 {
+	font-family: 'Raleway', sans-serif;
+}
+
 #qoute {
 	float: right;
 	margin-bottom: 100px;
@@ -382,14 +416,21 @@ img[alt*="gallery"] {
 
 #gallery-items .card {
 	height: 400px;
-	margin-bottom: 20px;
-	margin-top: 20px;
+	/*margin-bottom: 10px;
+	margin-top: 10px;*/
+	border-color: white;
+	color: #242423;
+	font-family: 'Raleway', sans-serif;
+
 }
 
-#gallery-items .card image {
-	height: 400px;
-	
+#gallery-items img:hover {
+ transform: scale(1.1);
 }
+
+
+
+
 
 /*===gallery====*/
 
@@ -419,6 +460,88 @@ img[alt*="gallery"] {
 
 /*======contact.html==========*/
 
-.contact {
-	float: left;
+/*.contact {
+	height: 50px;
+	width: 50px;
+	box-sizing: content-box;
 }
+*/
+
+.footer {
+	height: 100%;
+}
+
+
+#contactinfo {
+	margin-bottom: 100px;
+	height: 100vh;
+	margin-top: 20px;
+}
+
+.contact img {
+	right: 0;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	padding: 5px;
+	margin-top: 10px;
+/*	margin-bottom: -10px;
+	float: right;*/
+}
+
+iframe {
+	margin-top: 30px;
+}
+
+#foot {
+	padding-top: 20px;
+	position: relative;
+}
+
+
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 960px)
+{
+	
+
+	.gallery .column {
+		float: none;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	#mission {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+
+	#vscont {
+		width: 100%;
+		height: 100%;
+	}
+
+
+.contact img {
+	position: absolute;
+	transform: translate(-120px,-20%);
+	right: 0;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	padding: 5px;
+/*	margin-bottom: -10px;
+	float: right;*/
+}
+.contact img[src*="gtb"] {
+	position: absolute;
+	right: 0;
+	transform: translate(-70px, -20%);
+}
+.contact img[src*="lnk"] {
+	position: absolute;
+	right: 0;
+	transform: translate(-20px, -20%);
+}
+
