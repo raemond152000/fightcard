@@ -399,6 +399,17 @@ img[alt*="gallery"] {
 	width: 400px;
 }
 
+/*=====animation ======*/
+#carous12 {
+	animation-name: bounceInDown;
+	animation-duration: 1s;
+}
+
+#gallery-items {
+	animation-name: fadeIn;
+	animation-duration: 9s;
+}
+
 #q1 {
 	font-family: 'Raleway', sans-serif;
 }
