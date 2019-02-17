@@ -1,4 +1,4 @@
-* {
+		* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -43,10 +43,10 @@ a{
 	color: #f2f2f2;
 }
 
-#landing {
+/*#landing {
 	background-color: black;
 
-}
+}*/
 
 #btn1 {
 	padding: 20px 40px;
@@ -220,6 +220,9 @@ h5 {
 	text-align: left;
 }
 
+.checker{
+	border: 2px solid yellow;
+}
 
 
 #show {
@@ -399,6 +402,17 @@ img[alt*="gallery"] {
 	width: 400px;
 }
 
+/*=====animation ======*/
+#carous12 {
+	animation-name: bounceInDown;
+	animation-duration: 1s;
+}
+
+#gallery-items {
+	animation-name: fadeIn;
+	animation-duration: 9s;
+}
+
 #q1 {
 	font-family: 'Raleway', sans-serif;
 }
@@ -554,3 +568,14 @@ iframe {
 	right: 0;
 	transform: translate(-20px, -20%);
 }
+
+
+/*.carousel-item {
+	animation-name: bounce;
+	animation-duration: 1s;
+}
+
+#gallery-items {
+	animation-name: fadeIn;
+	animation-duration: 5s;
+}*/
